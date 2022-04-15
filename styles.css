@@ -1,0 +1,103 @@
+
+head {
+  font-family: Andale Mono, monospace;
+
+}
+body{
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  background-color: #0c0054;
+  color: #FFFFFF;
+}
+
+nav{
+	float: left;
+	background: #ffffbf;
+	color: #FFFFFF;
+	margin: 1em;
+	width: 60%;
+	border-radius: 50px;
+	padding-right:29em;
+  font-family: Arial, sans-serif;;
+
+}
+
+nav ul{
+	float: left;
+}
+nav ul li{
+	float: left;
+	padding: 0.5em;
+	list-style: none;
+	position: relative;
+	font-size: 1.7em;
+}
+
+.drop{
+	display: none;
+	position: absolute;
+	background: #ffffbf;
+  padding: 20px;
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+nav ul li ul li a {
+	padding: 0em;
+}
+
+nav ul li ul li{
+	font-size: 0.7em;
+	background: #ffffbf;
+}
+
+a {
+	text-decoration: none;
+	color: #0c0054;
+}
+a:hover {
+	color: #4b88f2;
+}
+
+
+.hello{
+  font-style: Courier, monospace;
+  margin: 90px;
+  font-size: 1.2em;
+   line-height: 1.5
+
+}
+
+.kl{
+  font-style: Courier, monospace;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0px 150px 100px 60px;
+}
+
+.kl2{
+  font-style: Courier, monospace;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0px 150px 100px 445px;
+}
+
+.kl3{
+  font-size: 1em;
+  color: #FFFFFF;
+  line-height: 1.5;}
+
+.dis{
+  font-style: Courier, monospace;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0px 150px 70px 60px;
+}
+
+.kon{
+  font-style: Courier, monospace;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 20px 150px 40px 445px;
+}
