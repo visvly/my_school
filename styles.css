@@ -39,7 +39,8 @@ nav ul li{
 	display: none;
 	position: absolute;
 	background: #d6d2c6;
-  padding: 20px;
+ 	padding: 20px;	
+	border-radius: 30px;
 }
 
 nav ul li:hover ul{
